@@ -36,7 +36,6 @@ namespace WinformApp48
 
         public void Render(Action<Graphics> actDraw, Graphics g)
         {
-            ManagedBackBuffer.Graphics.SetClip(new Region(Current.GetVisibleRect()), CombineMode.Replace);
             actDraw?.Invoke(ManagedBackBuffer.Graphics);
             ManagedBackBuffer?.Render(g);
         }

@@ -1,4 +1,4 @@
-﻿#define UseBufferedRender_
+﻿#define UseBufferedRender
 
 using System;
 using System.Diagnostics;
@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace WinformApp48
 {
-    public class DateDisplay : Control
+    public class DateDisplayBuffered : Control
     {
         Timer timer;
 #if UseBufferedRender
@@ -17,7 +17,7 @@ namespace WinformApp48
 
         Font font = SystemFonts.DefaultFont;
 
-        public DateDisplay()
+        public DateDisplayBuffered()
         {
             timer = new Timer();
             timer.Interval = 300;
