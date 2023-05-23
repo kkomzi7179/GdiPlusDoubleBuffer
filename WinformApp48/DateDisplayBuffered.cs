@@ -29,7 +29,7 @@ namespace WinformApp48
 
 #if UseBufferedRender
             SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint, true);
-            SetStyle(ControlStyles.OptimizedDoubleBuffer, false);
+            SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
 
             bufferedRender = new BufferedRender(this);
 
