@@ -7,4 +7,4 @@
 - .Net framework 4.8
 
 ## Source code for blog post
-- Post : https://blog.kkomzi.net/
+- Post : https://blog.kkomzi.net/231637
