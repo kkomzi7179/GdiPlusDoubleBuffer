@@ -1,7 +1,7 @@
 # GdiPlusDoubleBuffer
 
 ## 개요
-- Gdi+ 더블버퍼링 예제
+- c# winform gdi+ 더블버퍼링 라이브러리
 
 ## 개발환경
 - .Net framework 4.8
